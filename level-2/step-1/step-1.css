@@ -15,33 +15,42 @@
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
 
 .menu {
-    display: inline;
+    display: inline-block;
     width: 100px;
     height: 40px;
     background: #536A63;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
 }
 
 .logo {
-    display: inline;
+    display: inline-block;
     width: 300px;
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+
 }
 
 .sign-in {
-    display: inline;
+    display: inline-block;
     width: 100px;
     height: 40px;
     background: #536A63;
+    left: 22%;
+    top: 10px;
+    right: 10px;
 }
 
 /*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
 
 .bottom-container {
-    display: 
+    position: absolute;
     width: 60%;
     height: 60px;
     left: 22%;
     background: #536A63;
+    bottom: -30%;
 }
